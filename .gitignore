@@ -27,8 +27,9 @@ dist/
 # IDE files
 .vscode/
 .idea/
+.obsidian/
 *.swp
 *.swo
 
 # Logs
-*.log 
+*.log
