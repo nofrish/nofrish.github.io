@@ -37,3 +37,4 @@ AI 时代，有两种完全不同的交付方式。
 
 1. Niklas Gruhn, [Don't be a meat proxy](https://gruhn.me/blog/2026-08-03/), 2026-08-03.
 2. Sean Goedecke, [LLMs reward expertise](https://seangoedecke.com/llms-reward-expertise/), 2026-07-24.
+3. Simon Willison, [A quote from Greg Brockman](https://simonwillison.net/2026/Aug/1/greg-brockman/), 2026-08-01.
