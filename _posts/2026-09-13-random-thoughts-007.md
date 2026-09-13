@@ -22,11 +22,9 @@ tags:
 
 ## Review 不能消失
 
-Linus Torvalds 曾经说过：
+Linus 曾经说过：
 
 > Bad programmers worry about the code. Good programmers worry about data structures and their relationships.
->
-> 糟糕的程序员关心代码，好的程序员关心数据结构以及它们之间的关系。
 
 有了 AI 以后，这句话变得更加重要。
 
