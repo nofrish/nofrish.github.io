@@ -7,8 +7,7 @@ tags:
   - 保罗·格雷厄姆
 ---
 
-> 原文：Paul Graham《Life is Short》，2016 年 1 月
-> 链接：[paulgraham.com/vb.html](https://www.paulgraham.com/vb.html)
+原文链接：[Life is Short](https://www.paulgraham.com/vb.html)
 
 ---
 
@@ -68,8 +67,9 @@ tags:
 
 ## 结语
 
-> **毫不留情地剪除 bullshit，不要等才去做重要的事，好好珍惜你拥有的时间。**
-> 当人生苦短时，这就是你该做的。
+**毫不留情地剪除 bullshit，不要等才去做重要的事，好好珍惜你拥有的时间。**
+
+当人生苦短时，这就是你该做的。
 
 ## 注释
 
@@ -81,7 +81,3 @@ tags:
 - **bullshit** 一词保留英文原词，因为中文里没有一个完全对等的词（大致是「废话、破事、糟粕、浪费时间的东西」的集合体），作者自己在注释里也做了辨析。
 - **《燃烧白昼》（Burning the Days）** 是 James Salter（詹姆斯·索尔特）回忆录的书名。
 - 全文论证的骨架，是几组对子：连续量（continuous）vs 离散量（discrete）、强加（forced）vs 诱骗（tricks）、真正重要（matter）vs 看似重要（fake stuff that matters）。
-
----
-
-*感谢 Jessica Livingston 和 Geoff Ralston 阅读本文草稿。*
