@@ -100,6 +100,13 @@
 
   <!-- Scripts -->
 
+  {% unless site.theme_mode == 'light' or site.theme_mode == 'dark' %}
+    <script>
+      if (window.matchMedia('(max-width: 849px)').matches) {
+        localStorage.removeItem('theme');
+      }
+    </script>
+  {% endunless %}
   <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
 
   {% include js-selector.html lang=lang %}

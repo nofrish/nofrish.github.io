@@ -9,26 +9,22 @@
   font-size: 16px;
 }
 
-html {
-  @media (prefers-color-scheme: light) {
-    &:not([data-mode]),
-    &[data-mode='light'] {
-      @include light.styles;
-    }
-
-    &[data-mode='dark'] {
-      @include dark.styles;
-    }
+:root {
+  &[data-bs-theme='light'] {
+    @include light.styles;
   }
 
-  @media (prefers-color-scheme: dark) {
-    &:not([data-mode]),
-    &[data-mode='dark'] {
-      @include dark.styles;
+  &[data-bs-theme='dark'] {
+    @include dark.styles;
+  }
+
+  &:not([data-bs-theme]) {
+    @media (prefers-color-scheme: light) {
+      @include light.styles;
     }
 
-    &[data-mode='light'] {
-      @include light.styles;
+    @media (prefers-color-scheme: dark) {
+      @include dark.styles;
     }
   }
 

@@ -17,6 +17,45 @@
 #topbar {
   @extend %btn-color;
 
+  #search {
+    margin-left: auto;
+
+    @include bp.lt(bp.get(lg)) {
+      margin-left: 0.75rem;
+    }
+
+    @include bp.xl {
+      margin-right: 0;
+    }
+  }
+
+  #mode-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    padding: 0;
+    border-radius: 50%;
+    color: var(--topbar-text-color);
+    text-decoration: none;
+
+    i {
+      color: inherit;
+    }
+
+    &:hover,
+    &:focus-visible {
+      background-color: var(--sidebar-hover-bg);
+    }
+
+    @include bp.lt(bp.get(lg)) {
+      display: none;
+    }
+  }
+
   #breadcrumb {
     font-size: 1rem;
     color: var(--text-muted-color);
