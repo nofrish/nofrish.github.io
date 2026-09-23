@@ -23,6 +23,9 @@ node_modules/
 
 # Build artifacts
 dist/
+!assets/js/dist/
+assets/js/dist/*
+!assets/js/dist/sw.min.js
 
 # IDE files
 .vscode/
