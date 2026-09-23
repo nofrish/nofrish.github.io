@@ -123,7 +123,8 @@ script_includes:
   {% endif %}
 
   <div class="content">
-    {{ content }}
+    {% comment %}U+FE01 selects WenKai's fullwidth Chinese quotation marks.{% endcomment %}
+    {{ content | replace: '“', '“︁' | replace: '”', '”︁' }}
   </div>
 
   <div class="post-tail-wrapper text-muted">
