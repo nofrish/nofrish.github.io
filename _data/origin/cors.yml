@@ -4,9 +4,14 @@ resource_hints:
     links:
       - rel: preconnect
       - rel: dns-prefetch
+  - url: https://fontsapi.zeoseven.com
+    links:
+      - rel: preconnect
+        opts: [crossorigin]
+      - rel: dns-prefetch
 
 # Web Fonts
-webfonts: https://cdn.jsdelivr.net/npm/@krosdai/lxgw-bright@2.0.0/style-normal.css
+webfonts: https://fontsapi.zeoseven.com/442/main/result.css
 
 # Libraries
 
