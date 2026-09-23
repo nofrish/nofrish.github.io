@@ -227,6 +227,14 @@ main {
     @include mx.pl-pr(2px);
 
     border-bottom-style: none !important;
+
+    &::before {
+      content: '[';
+    }
+
+    &::after {
+      content: ']';
+    }
   }
 }
 
