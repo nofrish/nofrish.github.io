@@ -35,11 +35,17 @@
 
 body {
   background: var(--main-bg);
+  background-image: var(--main-surface, none);
+  background-size: cover;
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: v.$font-family-base;
+
+  @include bp.lg {
+    background-attachment: fixed;
+  }
 }
 
 h1.dynamic-title {

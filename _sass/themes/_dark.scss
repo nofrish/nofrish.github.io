@@ -2,7 +2,7 @@
   color-scheme: dark;
 
   /* Framework color */
-  --main-bg: rgb(27, 27, 30);
+  --main-bg: #1e1d1c;
   --mask-bg: rgb(68, 69, 70);
   --main-border-color: rgb(44, 45, 45);
 
@@ -33,19 +33,25 @@
   );
 
   /* Sidebar */
-  --site-title-color: #717070;
+  --site-title-color: #c7c7c7;
   --site-subtitle-color: #868686;
-  --sidebar-bg: #1e1e1e;
-  --sidebar-border-color: #292929;
-  --sidebar-muted-color: #868686;
+  --sidebar-bg: #191919;
+  --sidebar-surface: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.14),
+      rgba(0, 0, 0, 0.18)
+    ),
+    url('/assets/img/commons/sidebar-paper-dark-v2.webp');
+  --sidebar-border-color: #343434;
+  --sidebar-muted-color: #b0b0b0;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
-  --sidebar-hover-bg: #262626;
+  --sidebar-hover-bg: rgb(255, 255, 255, 0.08);
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
   --avatar-border-color: rgb(206, 206, 206, 0.9);
 
   /* Topbar */
-  --topbar-bg: rgb(27, 27, 30, 0.64);
+  --topbar-bg: rgb(30, 29, 28, 0.76);
   --topbar-text-color: var(--text-color);
   --search-border-color: rgb(55, 55, 55);
   --search-icon-color: rgb(100, 102, 105);
@@ -95,7 +101,9 @@
   --categories-icon-hover-color: white;
 
   /* Archive */
-  --timeline-node-bg: rgb(150, 152, 156);
+  --archive-row-bg: transparent;
+  --timeline-node-bg: #777a7e;
+  --timeline-node-shadow-color: transparent;
   --timeline-color: rgb(63, 65, 68);
   --timeline-year-dot-color: var(--timeline-color);
 
@@ -137,17 +145,6 @@
         border-bottom-color: var(--card-bg);
       }
     }
-  }
-
-  #archives li:nth-child(odd) {
-    background-image: linear-gradient(
-      to left,
-      rgb(26, 26, 30),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(26, 26, 30)
-    );
   }
 
   /* stylelint-disable-next-line selector-id-pattern */
