@@ -59,7 +59,7 @@
       <i class="fas fa-search fa-fw"></i>
     </button>
 
-    <search id="search" class="align-items-center ms-3 ms-lg-0">
+    <search id="search" class="align-items-center">
       <i class="fas fa-search fa-fw"></i>
       <input
         class="form-control"
@@ -70,8 +70,21 @@
         placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
       >
     </search>
+    {% unless site.theme_mode == 'light' or site.theme_mode == 'dark' %}
+      <button type="button" class="btn btn-link" aria-label="Switch to Dark Mode" id="mode-toggle">
+        <i class="fas fa-adjust" aria-hidden="true"></i>
+      </button>
+      <!-- Chirpy's page script expects this adjacent menu, even when the toggle is one-click. -->
+      <div class="dropdown-menu d-none" hidden aria-hidden="true">
+        <button class="dropdown-item" type="button" data-theme-mode="light"></button>
+        <button class="dropdown-item" type="button" data-theme-mode="dark"></button>
+        <button class="dropdown-item" type="button" data-theme-mode="system"></button>
+      </div>
+    {% endunless %}
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
       {{- site.data.locales[include.lang].search.cancel -}}
     </button>
   </div>
 </header>
+
+<script defer src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
