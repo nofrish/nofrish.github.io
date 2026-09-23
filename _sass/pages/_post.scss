@@ -48,94 +48,13 @@ header {
 .post-tail-wrapper {
   @extend %text-sm;
 
-  margin-top: 6rem;
+  margin-top: 3rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px double var(--main-border-color);
-
-  .license-wrapper {
-    line-height: 1.2rem;
-
-    > a {
-      @extend %text-highlight;
-
-      &:hover {
-        @extend %link-hover;
-      }
-    }
-
-    span:last-child {
-      @extend %text-sm;
-    }
-  } /* .license-wrapper */
 
   .post-meta a:not(:hover) {
     @extend %link-underline;
   }
-
-  .share-wrapper {
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-    %icon-size {
-      font-size: 1.125rem;
-    }
-
-    .share-icons {
-      display: flex;
-
-      i {
-        color: var(--btn-share-color);
-
-        @extend %icon-size;
-      }
-
-      > * {
-        @extend %icon-size;
-
-        margin-left: 0.5rem;
-
-        &:hover {
-          i {
-            @extend %btn-share-hover;
-          }
-        }
-      }
-
-      button {
-        padding: 0;
-        border: none;
-        line-height: inherit;
-
-        @extend %cursor-pointer;
-      }
-    } /* .share-icons */
-  } /* .share-wrapper */
-}
-
-.post-tail-bottom {
-  @include bp.lte(bp.get(sm)) {
-    flex-wrap: wrap-reverse !important;
-
-    > div:first-child {
-      width: 100%;
-      margin-top: 1rem;
-    }
-  }
-}
-
-.share-mastodon {
-  /* See: https://github.com/justinribeiro/share-to-mastodon#properties */
-  --wc-stm-font-family: v.$font-family-base;
-  --wc-stm-dialog-background-color: var(--card-bg);
-  --wc-stm-form-button-border: 1px solid var(--btn-border-color);
-  --wc-stm-form-submit-background-color: var(--sidebar-btn-bg);
-  --wc-stm-form-cancel-background-color: var(--sidebar-btn-bg);
-  --wc-stm-form-button-background-color-hover: #007bff;
-  --wc-stm-form-button-color-hover: white;
-
-  font-size: 1rem;
 }
 
 .post-tags {
@@ -467,18 +386,6 @@ header {
 .utterances {
   max-width: 100%;
   min-height: 269px;
-}
-
-%btn-share-hover {
-  color: var(--btn-share-hover-color) !important;
-}
-
-.share-label {
-  @include mx.label(inherit, 400, inherit);
-
-  &::after {
-    content: ':';
-  }
 }
 
 .content > p > img {
