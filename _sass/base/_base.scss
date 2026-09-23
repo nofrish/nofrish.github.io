@@ -223,6 +223,10 @@ main {
   }
 } /* .content */
 
+main > article > .content {
+  font-size: 1.15rem;
+}
+
 .tag:hover {
   @extend %tag-hover;
 }
