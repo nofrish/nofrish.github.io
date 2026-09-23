@@ -4,14 +4,9 @@ resource_hints:
     links:
       - rel: preconnect
       - rel: dns-prefetch
-  - url: https://fontsapi.zeoseven.com
-    links:
-      - rel: preconnect
-        opts: [crossorigin]
-      - rel: dns-prefetch
-
 # Web Fonts
-webfonts: https://fontsapi.zeoseven.com/442/main/result.css
+webfonts: https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@1.522.0/lxgwwenkai-regular/result.css
+webfonts_heading: https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@1.522.0/lxgwwenkai-medium/result.css
 
 # Libraries
 
