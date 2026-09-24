@@ -426,6 +426,12 @@ description: Paul Graham《How to Do Great Work》的中文翻译。
 
 ---
 
+## 致谢
+
+感谢 Trevor Blackwell、Daniel Gackle、Pam Graham、Tom Howard、Patrick Hsu、Steve Huffman、Jessica Livingston、Henry Lloyd-Baker、Bob Metcalfe、Ben Miller、Robert Morris、Michael Nielsen、Courtenay Pipkin、Joris Poort、Mieke Roos、Rajat Suri、Harj Taggar、Garry Tan，以及我的小儿子提出的建议和阅读草稿。
+
+---
+
 ## 注释
 
 [^1]: 什么算伟大的工作，恐怕很难精确定义。大致说来，就是把一件重要的事做得足够好，拓宽了人们对可能性的认识。但重要与否没有明确的分界线，当下也常常难以判断。所以，与其担心自己的兴趣够不够重要，不如先认真发展它。尽管去做了不起的事，是否成功，留给后来的人评判。
@@ -492,9 +498,3 @@ description: Paul Graham《How to Do Great Work》的中文翻译。
 [^28]: 推论：构建某种让人们绕过中间人、直接与受众接触的东西，可能是个好主意。
 
 [^29]: 总是走或跑同一条路线可能有帮助，因为那能把注意力解放出来用于思考。我感觉是这样，而且有一些历史证据支持这一点。
-
----
-
-## 致谢
-
-感谢 Trevor Blackwell、Daniel Gackle、Pam Graham、Tom Howard、Patrick Hsu、Steve Huffman、Jessica Livingston、Henry Lloyd-Baker、Bob Metcalfe、Ben Miller、Robert Morris、Michael Nielsen、Courtenay Pipkin、Joris Poort、Mieke Roos、Rajat Suri、Harj Taggar、Garry Tan，以及我的小儿子提出的建议和阅读草稿。
