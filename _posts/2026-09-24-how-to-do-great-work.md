@@ -2,7 +2,7 @@
 title: 如何做出伟大的工作
 date: 2026-09-24 10:55:00 +0800
 categories:
-  - 他山之石
+  - 借光而行
 tags:
   - 保罗·格雷厄姆
 description: Paul Graham《How to Do Great Work》的中文翻译。
