@@ -2,7 +2,7 @@
 title: 让创业公司变得更强大
 date: 2026-09-28 15:48:24 +0800
 categories:
-  - 他山之石
+  - 借光而行
 tags:
   - 保罗·格雷厄姆
 description: Paul Graham《Making Startups Powerful》的中文翻译。
