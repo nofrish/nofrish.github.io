@@ -23,7 +23,7 @@ tags:
 
 后来系统需要产品化，新加入的产品同学看似经验丰富，但是不愿深入调查，仅仅凭借经验设计了一堆看起来高大上的报表，还夸夸其谈业务可以如何如何来使用这些报表。她并没有真正理解业务人员需要什么，页面看起来专业，却没能帮助业务解决问题。甚至一度页面上的数据出了问题，也没有任何人反馈。
 
-乔布斯在 1996 年接受 [WIRED 采访](https://www.wired.com/1996/02/jobs-2/)时，谈到要怎样才能设计好一个东西。其中有一句话，我觉得很贴切：
+乔布斯在接受 [WIRED 采访](https://www.wired.com/1996/02/jobs-2/)时谈到要如何设计出一个好东西。其中有一句话，我觉得很贴切：
 
 > It takes a passionate commitment to really thoroughly understand something, chew it up, not just quickly swallow it.<br>
 > 要真正彻底理解一件事，需要满怀热情地投入，细细咀嚼，而不是匆忙吞下。
