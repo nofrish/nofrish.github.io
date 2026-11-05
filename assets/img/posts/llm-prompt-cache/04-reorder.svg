@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">把提示词分成公共段和动态段</title>
+  <desc id="desc">调整前，公共内容与用户专属内容交错，新用户只能复用开头的身份部分。调整后，身份、工具说明和通用规则集中在前，公共段末尾设置检查点，用户名、日期和用户的技能集中在后，新用户可以直接读取整个公共段的缓存。</desc>
+  <rect x="0.5" y="0.5" width="759" height="219" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" fill="#111827">
+    <text x="20" y="47" font-weight="600">调整前</text>
+    <rect x="130" y="26" width="80" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="210" y="26" width="40" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="250" y="26" width="160" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="410" y="26" width="40" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="450" y="26" width="160" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="610" y="26" width="80" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <g text-anchor="middle">
+      <text x="170" y="46">身份</text>
+      <text x="230" y="46" font-size="12">用户名</text>
+      <text x="330" y="46">工具说明</text>
+      <text x="430" y="46" font-size="12">日期</text>
+      <text x="530" y="46">通用规则</text>
+      <text x="650" y="46" font-size="12">用户的技能</text>
+    </g>
+    <path d="M130 61 V68 H210 V61" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="130" y="84" font-size="12" fill="#6b7280">新用户只能复用这一小段</text>
+
+    <text x="20" y="147" font-weight="600">调整后</text>
+    <path d="M130 116 V109 H530 V116" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="330" y="103" text-anchor="middle" font-size="12" fill="#6b7280">公共段：所有用户都一样 → 新用户直接读缓存</text>
+    <path d="M526 117 H534 L530 123 Z" fill="#9ca3af"/>
+    <text x="541" y="122" font-size="12" fill="#6b7280">检查点</text>
+    <rect x="130" y="126" width="80" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="210" y="126" width="160" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="370" y="126" width="160" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="530" y="126" width="40" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="570" y="126" width="40" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="610" y="126" width="80" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <g text-anchor="middle">
+      <text x="170" y="146" fill="#166534">身份</text>
+      <text x="290" y="146" fill="#166534">工具说明</text>
+      <text x="450" y="146" fill="#166534">通用规则</text>
+      <text x="550" y="146" font-size="12">用户名</text>
+      <text x="590" y="146" font-size="12">日期</text>
+      <text x="650" y="146" font-size="12">用户的技能</text>
+    </g>
+    <path d="M530 161 V168 H690 V161" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="610" y="183" text-anchor="middle" font-size="12" fill="#6b7280">动态段</text>
+
+    <g font-size="12" fill="#6b7280">
+      <rect x="130" y="187" width="14" height="14" rx="3" fill="#e5e7eb" stroke="#9ca3af"/>
+      <text x="152" y="199">需要重新计算</text>
+      <rect x="274" y="187" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+      <text x="296" y="199">读缓存</text>
+      <rect x="370" y="187" width="14" height="14" rx="3" fill="#e0e7ff" stroke="#6366f1"/>
+      <text x="392" y="199">用户专属内容</text>
+    </g>
+  </g>
+</svg>
