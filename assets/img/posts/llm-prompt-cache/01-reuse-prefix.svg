@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">两轮请求的前缀复用</title>
+  <desc id="desc">第 1 轮重新计算系统提示词和问题 1。第 2 轮从缓存读取系统提示词、问题 1 和回答 1，重新计算问题 2。</desc>
+  <rect x="0.5" y="0.5" width="759" height="219" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" fill="#111827">
+    <text x="20" y="59" font-weight="600">第 1 轮请求</text>
+    <rect x="130" y="38" width="390" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="325" y="58" text-anchor="middle">系统提示词</text>
+    <rect x="520" y="38" width="26" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <path d="M533 38 V27 H554" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="560" y="31">问题 1</text>
+
+    <text x="20" y="135" font-weight="600">第 2 轮请求</text>
+    <rect x="130" y="114" width="390" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="325" y="134" text-anchor="middle" fill="#166534">系统提示词</text>
+    <rect x="520" y="114" width="26" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="546" y="114" width="26" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="572" y="114" width="26" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <path d="M130 107 V100 H572 V107" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="351" y="94" text-anchor="middle" font-size="12" fill="#6b7280">和第 1 轮一字不差 → 直接读缓存</text>
+    <path d="M533 144 V154 H477 M559 144 V164 H550 M585 144 V154 H621" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="470" y="159" text-anchor="end" font-size="12" fill="#166534">问题 1</text>
+    <text x="545" y="168" text-anchor="end" font-size="12" fill="#166534">回答 1</text>
+    <text x="627" y="159" font-size="12">问题 2</text>
+
+    <rect x="130" y="187" width="14" height="14" rx="3" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="152" y="199" font-size="12" fill="#6b7280">需要重新计算（按全价）</text>
+    <rect x="346" y="187" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="368" y="199" font-size="12" fill="#6b7280">读缓存（约一成价格）</text>
+  </g>
+</svg>
