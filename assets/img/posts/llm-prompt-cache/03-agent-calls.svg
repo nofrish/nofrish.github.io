@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+  <title id="title">Agent 连续三次调用模型</title>
+  <desc id="desc">第一次调用重新计算系统提示词和问题。第二次读取前一次的全部内容，重新计算工具调用 1 和结果 1；第三次读取第二次的全部内容，重新计算工具调用 2 和结果 2。前两次调用末尾各有一个检查点。</desc>
+  <rect x="0.5" y="0.5" width="759" height="239" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" fill="#111827">
+    <text x="20" y="47" font-weight="600">第 1 次调用</text>
+    <rect x="130" y="26" width="260" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="260" y="46" text-anchor="middle">系统提示词</text>
+    <rect x="390" y="26" width="26" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <path d="M403 56 V66 H425" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="431" y="70" font-size="12">问题</text>
+    <path d="M412 17 H420 L416 23 Z" fill="#9ca3af"/>
+
+    <text x="20" y="107" font-weight="600">第 2 次调用</text>
+    <rect x="130" y="86" width="260" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="390" y="86" width="26" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="273" y="106" text-anchor="middle" font-size="12" fill="#166534">上一次的全部内容 → 读缓存</text>
+    <rect x="416" y="86" width="26" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="442" y="86" width="52" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <path d="M429 116 V126 H408 M468 116 V126 H485" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="402" y="130" text-anchor="end" font-size="12">工具调用 1</text>
+    <text x="491" y="130" font-size="12">结果 1</text>
+    <path d="M490 77 H498 L494 83 Z" fill="#9ca3af"/>
+
+    <text x="20" y="167" font-weight="600">第 3 次调用</text>
+    <rect x="130" y="146" width="260" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="390" y="146" width="26" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="416" y="146" width="26" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="442" y="146" width="52" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="312" y="166" text-anchor="middle" font-size="12" fill="#166534">上一次的全部内容 → 读缓存</text>
+    <rect x="494" y="146" width="26" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="520" y="146" width="52" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <path d="M507 176 V186 H486 M546 176 V186 H563" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="480" y="190" text-anchor="end" font-size="12">工具调用 2</text>
+    <text x="569" y="190" font-size="12">结果 2</text>
+
+    <g font-size="12" fill="#6b7280">
+      <rect x="130" y="211" width="14" height="14" rx="3" fill="#e5e7eb" stroke="#9ca3af"/>
+      <text x="152" y="223">需要重新计算</text>
+      <rect x="274" y="211" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+      <text x="296" y="223">读缓存</text>
+    </g>
+  </g>
+</svg>

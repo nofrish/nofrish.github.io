@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">当前时间的位置影响缓存命中</title>
+  <desc id="desc">当前时间放在开头时，变化导致系统提示词和对话都需要重新计算。放在末尾时，系统提示词和对话可以读取缓存，只有时间需要重新计算。</desc>
+  <rect x="0.5" y="0.5" width="759" height="189" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" fill="#111827">
+    <text x="20" y="58" font-weight="600">时间放在开头</text>
+    <rect x="130" y="37" width="24" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="154" y="37" width="240" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="394" y="37" width="96" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="274" y="57" text-anchor="middle">系统提示词</text>
+    <text x="442" y="57" text-anchor="middle">对话</text>
+    <text x="503" y="57" font-size="12" fill="#6b7280">开头就变了：全部重新计算</text>
+    <path d="M142 37 V27 H160" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="166" y="31" font-size="12">当前时间</text>
+
+    <text x="20" y="128" font-weight="600">时间放在末尾</text>
+    <rect x="130" y="107" width="240" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="370" y="107" width="96" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="466" y="107" width="24" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <text x="250" y="127" text-anchor="middle" fill="#166534">系统提示词</text>
+    <text x="418" y="127" text-anchor="middle" fill="#166534">对话</text>
+    <text x="503" y="127" font-size="12" fill="#6b7280">只有末尾这一小段重新计算</text>
+    <path d="M478 107 V97 H460" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="454" y="101" text-anchor="end" font-size="12">当前时间</text>
+
+    <g font-size="12" fill="#6b7280">
+      <rect x="130" y="161" width="14" height="14" rx="3" fill="#e5e7eb" stroke="#9ca3af"/>
+      <text x="152" y="173">需要重新计算</text>
+      <rect x="274" y="161" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+      <text x="296" y="173">读缓存</text>
+      <rect x="370" y="161" width="14" height="14" rx="3" fill="#e0e7ff" stroke="#6366f1"/>
+      <text x="392" y="173">会变化的内容</text>
+    </g>
+  </g>
+</svg>
