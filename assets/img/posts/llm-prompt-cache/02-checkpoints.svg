@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">检查点决定能命中多少</title>
+  <desc id="desc">已缓存的请求和新请求共享系统提示词，在用户信息处开始不同。三个检查点分别位于系统提示词、用户信息和对话的末尾，因此新请求只能命中到检查点 1。</desc>
+  <rect x="0.5" y="0.5" width="759" height="219" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" fill="#111827">
+    <g font-size="12" fill="#6b7280" text-anchor="middle">
+      <text x="418" y="23">检查点 1</text>
+      <text x="490" y="23">检查点 2</text>
+      <text x="562" y="23">检查点 3</text>
+    </g>
+    <g fill="#9ca3af">
+      <path d="M414 29 H422 L418 35 Z"/>
+      <path d="M486 29 H494 L490 35 Z"/>
+      <path d="M558 29 H566 L562 35 Z"/>
+    </g>
+    <text x="20" y="65" font-size="14" font-weight="600">已缓存的请求</text>
+    <rect x="130" y="42" width="288" height="36" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <rect x="418" y="42" width="72" height="36" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="490" y="42" width="72" height="36" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="20" y="140" font-size="14" font-weight="600">新的请求</text>
+    <rect x="130" y="117" width="288" height="36" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="418" y="117" width="72" height="36" rx="6" fill="#e0e7ff" stroke="#6366f1"/>
+    <rect x="490" y="117" width="72" height="36" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <g stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 4">
+      <path d="M418 35 V161"/>
+      <path d="M490 35 V161"/>
+      <path d="M562 35 V161"/>
+    </g>
+    <g font-size="14" text-anchor="middle">
+      <text x="274" y="65">系统提示词</text>
+      <text x="526" y="65">对话</text>
+      <text x="274" y="140" fill="#166534">系统提示词</text>
+      <text x="526" y="140">对话</text>
+    </g>
+    <g font-size="12" text-anchor="middle">
+      <text x="454" y="57">用户 A</text>
+      <text x="454" y="72">的信息</text>
+      <text x="454" y="132">用户 B</text>
+      <text x="454" y="147">的信息</text>
+      <text x="274" y="102" fill="#166534">与检查点 1 之前一字不差 → 命中</text>
+      <text x="490" y="102" fill="#2563eb">这里开始不同</text>
+    </g>
+    <text x="575" y="140" font-size="12" fill="#6b7280">只能命中到检查点 1</text>
+    <g font-size="12" fill="#6b7280">
+      <rect x="130" y="187" width="14" height="14" rx="3" fill="#e5e7eb" stroke="#9ca3af"/>
+      <text x="152" y="199">需要重新计算</text>
+      <rect x="274" y="187" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+      <text x="296" y="199">读缓存</text>
+      <rect x="370" y="187" width="14" height="14" rx="3" fill="#e0e7ff" stroke="#6366f1"/>
+      <text x="392" y="199">用户专属内容</text>
+    </g>
+  </g>
+</svg>
