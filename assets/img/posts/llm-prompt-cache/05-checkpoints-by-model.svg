@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+  <title id="title">各模型的缓存检查点</title><desc id="desc">相同请求在 Claude、GPT 和 Gemini 中的手动或自动检查点位置，以及 Gemini 显式缓存的范围。</desc>
+  <rect x="0.5" y="0.5" width="759" height="239" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" fill="#111827">
+    <text x="20" y="47" font-size="14" font-weight="600">Claude</text>
+    <rect x="130" y="26" width="60" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="160" y="46" text-anchor="middle" font-size="12">工具定义</text>
+    <rect x="190" y="26" width="180" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="280" y="46" text-anchor="middle" font-size="12" fill="#166534">公共段</text>
+    <rect x="370" y="26" width="60" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/><text x="400" y="46" text-anchor="middle" font-size="12">动态段</text>
+    <rect x="430" y="26" width="90" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="475" y="46" text-anchor="middle" font-size="12">对话</text>
+    <path d="M366 17 H374 L370 23 Z" fill="#2563eb"/>
+    <path d="M426 17 H434 L430 23 Z" fill="#2563eb"/>
+    <path d="M516 17 H524 L520 23 Z" fill="#2563eb"/>
+    <text x="535" y="46" font-size="12" fill="#6b7280">自己标，最多 4 个</text>
+    <text x="20" y="99" font-size="14" font-weight="600">GPT</text>
+    <rect x="130" y="78" width="60" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="160" y="98" text-anchor="middle" font-size="12">工具定义</text>
+    <rect x="190" y="78" width="180" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="280" y="98" text-anchor="middle" font-size="12" fill="#166534">公共段</text>
+    <rect x="370" y="78" width="60" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/><text x="400" y="98" text-anchor="middle" font-size="12">动态段</text>
+    <rect x="430" y="78" width="90" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="475" y="98" text-anchor="middle" font-size="12">对话</text>
+    <path d="M366 69 H374 L370 75 Z" fill="#2563eb"/>
+    <path d="M426 69 H434 L430 75 Z" fill="#ffffff" stroke="#9ca3af"/>
+    <path d="M516 69 H524 L520 75 Z" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="535" y="98" font-size="12" fill="#6b7280">自动放在消息边界 + 手动补一个</text>
+    <text x="20" y="151" font-size="14" font-weight="600">Gemini</text>
+    <rect x="130" y="130" width="60" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="160" y="150" text-anchor="middle" font-size="12">工具定义</text>
+    <rect x="190" y="130" width="180" height="30" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="280" y="150" text-anchor="middle" font-size="12" fill="#166534">公共段</text>
+    <rect x="370" y="130" width="60" height="30" rx="6" fill="#e0e7ff" stroke="#6366f1"/><text x="400" y="150" text-anchor="middle" font-size="12">动态段</text>
+    <rect x="430" y="130" width="90" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="475" y="150" text-anchor="middle" font-size="12">对话</text>
+    <path d="M516 121 H524 L520 127 Z" fill="#ffffff" stroke="#9ca3af"/>
+    <text x="535" y="150" font-size="12" fill="#6b7280">自动缓存，按前缀匹配</text>
+    <path d="M130 164 V170 H430 V164" fill="none" stroke="#9ca3af" stroke-width="1.25"/>
+    <text x="280" y="186" text-anchor="middle" font-size="12" fill="#6b7280">显式缓存：整段系统提示词算一份，只能有一份</text>
+    <g font-size="12" fill="#6b7280">
+      <path d="M22 211 H30 L26 217 Z" fill="#2563eb"/><text x="37" y="218">手动标的检查点</text>
+      <path d="M150 211 H158 L154 217 Z" fill="#ffffff" stroke="#9ca3af"/><text x="165" y="218">模型自动放的检查点</text>
+      <rect x="315" y="206" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/><text x="337" y="218">公共段（可共享）</text>
+      <rect x="464" y="206" width="14" height="14" rx="3" fill="#e0e7ff" stroke="#6366f1"/><text x="486" y="218">用户专属内容</text>
+      <rect x="590" y="206" width="14" height="14" rx="3" fill="#e5e7eb" stroke="#9ca3af"/><text x="612" y="218">其他</text>
+    </g>
+  </g>
+</svg>

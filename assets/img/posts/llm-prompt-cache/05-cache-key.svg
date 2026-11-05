@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="200" viewBox="0 0 760 200" role="img" aria-labelledby="title desc">
+  <title id="title">缓存分组标签</title><desc id="desc">每个会话使用不同标签时缓存分开；所有会话共用标签时可以共享公共段。</desc>
+  <rect x="0.5" y="0.5" width="759" height="199" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" fill="#111827">
+    <path d="M380 20 V180" stroke="#e5e7eb"/>
+    <g font-size="12" fill="#6b7280" text-anchor="middle"><text x="195" y="25">每个会话一个标签</text><text x="565" y="25">所有会话共用一个标签</text></g>
+    <g stroke="#9ca3af" stroke-width="1.25" fill="none">
+      <path d="M90 78 V110 M195 78 V110 M300 78 V110"/>
+      <path d="M460 78 V92 H565 V110 M565 78 V110 M670 78 V92 H565"/>
+    </g>
+    <rect x="55" y="48" width="70" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="90" y="68" text-anchor="middle" font-size="14">会话 1</text>
+    <rect x="160" y="48" width="70" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="195" y="68" text-anchor="middle" font-size="14">会话 2</text>
+    <rect x="265" y="48" width="70" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="300" y="68" text-anchor="middle" font-size="14">会话 3</text>
+    <rect x="425" y="48" width="70" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="460" y="68" text-anchor="middle" font-size="14">会话 1</text>
+    <rect x="530" y="48" width="70" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="565" y="68" text-anchor="middle" font-size="14">会话 2</text>
+    <rect x="635" y="48" width="70" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/><text x="670" y="68" text-anchor="middle" font-size="14">会话 3</text>
+    <rect x="55" y="110" width="70" height="40" rx="6" fill="#ffffff" stroke="#9ca3af"/><text x="90" y="127" text-anchor="middle" font-size="12">缓存</text><rect x="67" y="134" width="46" height="8" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="160" y="110" width="70" height="40" rx="6" fill="#ffffff" stroke="#9ca3af"/><text x="195" y="127" text-anchor="middle" font-size="12">缓存</text><rect x="172" y="134" width="46" height="8" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="265" y="110" width="70" height="40" rx="6" fill="#ffffff" stroke="#9ca3af"/><text x="300" y="127" text-anchor="middle" font-size="12">缓存</text><rect x="277" y="134" width="46" height="8" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="530" y="110" width="70" height="40" rx="6" fill="#ffffff" stroke="#9ca3af"/><text x="565" y="127" text-anchor="middle" font-size="12">缓存</text><rect x="542" y="134" width="46" height="8" rx="3" fill="#dcfce7" stroke="#16a34a"/>
+    <g font-size="12" fill="#6b7280" text-anchor="middle"><text x="195" y="177">各存各的，互相读不到</text><text x="565" y="177">第一个会话存下，后面的直接读</text></g>
+  </g>
+</svg>

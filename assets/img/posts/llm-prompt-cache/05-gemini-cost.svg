@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Gemini 每轮输入费用</title><desc id="desc">八轮对话中，只用自动缓存与加显式缓存的每轮输入费用对比，第四轮后停顿六分钟。</desc>
+  <rect x="0.5" y="0.5" width="759" height="219" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" fill="#111827">
+    <text x="20" y="22" font-size="12" fill="#6b7280">0.001 美元</text>
+    <text x="730" y="22" text-anchor="end" font-size="12" fill="#6b7280">8 轮合计：自动缓存 26.0，加显式缓存 35.7</text>
+    <g stroke="#e5e7eb" stroke-width="1"><path d="M62 160 H730"/><path d="M62 130 H730"/><path d="M62 100 H730"/><path d="M62 70 H730"/><path d="M62 40 H730"/></g>
+    <g font-size="12" fill="#6b7280" text-anchor="end"><text x="53" y="164">0</text><text x="53" y="134">2</text><text x="53" y="104">4</text><text x="53" y="74">6</text><text x="53" y="44">8</text></g>
+    <!-- 原始费用（美元）：自动 0.00791, 0.00234, 0.00242, 0.00250, 0.00259, 0.00267, 0.00275, 0.00283；显式 0.00191, 0.00233, 0.00314, 0.00396, 0.00516, 0.00558, 0.00639, 0.00721。柱高 = 费用 × 1000 × 15；y = 160 − 柱高。 -->
+    <rect x="88" y="41.3500" width="10" height="118.6500" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="102" y="131.3500" width="10" height="28.6500" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="100" y="176" text-anchor="middle" font-size="12" fill="#6b7280">1</text>
+    <rect x="168" y="124.9000" width="10" height="35.1000" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="182" y="125.0500" width="10" height="34.9500" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="180" y="176" text-anchor="middle" font-size="12" fill="#6b7280">2</text>
+    <rect x="248" y="123.7000" width="10" height="36.3000" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="262" y="112.9000" width="10" height="47.1000" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="260" y="176" text-anchor="middle" font-size="12" fill="#6b7280">3</text>
+    <rect x="328" y="122.5000" width="10" height="37.5000" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="342" y="100.6000" width="10" height="59.4000" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="340" y="176" text-anchor="middle" font-size="12" fill="#6b7280">4</text>
+    <rect x="408" y="121.1500" width="10" height="38.8500" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="422" y="82.6000" width="10" height="77.4000" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="420" y="176" text-anchor="middle" font-size="12" fill="#6b7280">5</text>
+    <rect x="488" y="119.9500" width="10" height="40.0500" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="502" y="76.3000" width="10" height="83.7000" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="500" y="176" text-anchor="middle" font-size="12" fill="#6b7280">6</text>
+    <rect x="568" y="118.7500" width="10" height="41.2500" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="582" y="64.1500" width="10" height="95.8500" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="580" y="176" text-anchor="middle" font-size="12" fill="#6b7280">7</text>
+    <rect x="648" y="117.5500" width="10" height="42.4500" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="662" y="51.8500" width="10" height="108.1500" rx="2" fill="#fef3c7" stroke="#d97706"/>
+    <text x="660" y="176" text-anchor="middle" font-size="12" fill="#6b7280">8</text>
+    <path d="M380 40 V160" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="380" y="37" text-anchor="middle" font-size="12" fill="#6b7280">停顿 6 分钟</text>
+    <rect x="230" y="190" width="14" height="14" rx="3" fill="#dcfce7" stroke="#16a34a"/><text x="252" y="202" font-size="12" fill="#6b7280">只用自动缓存</text>
+    <rect x="398" y="190" width="14" height="14" rx="3" fill="#fef3c7" stroke="#d97706"/><text x="420" y="202" font-size="12" fill="#6b7280">加显式缓存</text>
+    <text x="730" y="202" text-anchor="end" font-size="12" fill="#6b7280">轮次</text>
+  </g>
+</svg>
