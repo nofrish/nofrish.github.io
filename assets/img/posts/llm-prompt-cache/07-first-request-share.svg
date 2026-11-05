@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="210" viewBox="0 0 760 210" role="img" aria-labelledby="title desc">
+  <title id="title">会话第一个请求的输入量，各模型占比</title>
+  <desc id="desc">最近一周，会话第一个请求的输入 token 按模型统计；两个 GPT 模型占绝大部分。</desc>
+  <rect x="0.5" y="0.5" width="759" height="209" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <g font-family="PingFang SC, Noto Sans SC, Microsoft YaHei, sans-serif" fill="#111827">
+    <text x="730" y="22" text-anchor="end" font-size="12" fill="#6b7280">会话第一个请求的输入量占比（最近一周）</text>
+    <path d="M218 38 V190" stroke="#e5e7eb" stroke-width="1"/>
+    <!-- 输入 token（百万）总计 = 97.54；占比 = 各模型输入量 / 总计 × 100；条宽 = 各模型输入量 / 总计 × 550。 -->
+    <!-- GPT-6 Luna：79.55 / 97.54 -->
+    <text x="205" y="53" text-anchor="end" font-size="14" font-weight="600">GPT-6 Luna</text>
+    <rect x="218" y="40" width="448.560" height="17" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="674.560" y="53" font-size="14">81.6%</text>
+    <!-- GPT-6.1 Sol：11.14 / 97.54 -->
+    <text x="205" y="79" text-anchor="end" font-size="14" font-weight="600">GPT-6.1 Sol</text>
+    <rect x="218" y="66" width="62.815" height="17" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="288.815" y="79" font-size="14">11.4%</text>
+    <!-- DeepSeek V4.1 Flash：2.90 / 97.54 -->
+    <text x="205" y="105" text-anchor="end" font-size="14" font-weight="600">DeepSeek V4.1 Flash</text>
+    <rect x="218" y="92" width="16.352" height="17" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="242.352" y="105" font-size="14">3.0%</text>
+    <!-- Claude（三个型号合计）：1.67 / 97.54 -->
+    <text x="205" y="131" text-anchor="end" font-size="14" font-weight="600">Claude（三个型号合计）</text>
+    <rect x="218" y="118" width="9.417" height="17" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="235.417" y="131" font-size="14">1.7%</text>
+    <!-- Grok 4.6：0.81 / 97.54 -->
+    <text x="205" y="157" text-anchor="end" font-size="14" font-weight="600">Grok 4.6</text>
+    <rect x="218" y="144" width="4.567" height="17" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="230.567" y="157" font-size="14">0.8%</text>
+    <!-- 其他模型合计：1.47 / 97.54 -->
+    <text x="205" y="183" text-anchor="end" font-size="14" font-weight="600">其他模型合计</text>
+    <rect x="218" y="170" width="8.289" height="17" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+    <text x="234.289" y="183" font-size="14">1.5%</text>
+  </g>
+</svg>
